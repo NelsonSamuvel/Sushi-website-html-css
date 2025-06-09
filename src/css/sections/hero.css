@@ -23,3 +23,138 @@
     z-index: -1;
     background-color: var(--primary-color);
 }
+
+.hero-image h2{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-family: var(--playfair-display);
+    font-size: 120px;
+    line-height: 138px;
+    color: #fff;
+}
+
+.hero-content{
+    flex: 1.22;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-content-info{
+    flex: 1;
+    padding: 4.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-content-info h1{
+    font-size: 80px;
+    font-family: var(--playfair-display);
+    font-weight: 600;
+    color: var(--secondary-color);
+}
+
+.hero-content-info p{
+    margin: 32px 0 0 32px;
+    font-family: var(--plus-jakarta-sans);
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+.hero-content__btns{
+    margin: 41px 0 0 41px;
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.hero-content__order-btn{
+    background-color: var(--secondary-color);
+    padding: 20px;
+    color: #fff;
+    min-width: 212px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.hero-content__play-btn{
+    display: flex;
+    align-items: center;
+    background: transparent;
+    font-family: var(--plus-jakarta-sans);
+    gap: 1rem;
+    font-size: 16px;
+
+}
+
+.hero-content__play-btn img{
+    width: 46px;
+    height: 46px;
+    object-fit: contain;
+}
+
+
+
+.hero-content__btns button{
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hero-content__testimonial{
+    background-color: var(--color-white);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem 4.5rem;
+}
+
+.hero-content__customer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+}
+
+.hero-content__customer h4{
+    font-size: 3.5rem;
+    font-weight: 400;
+    font-family: var(--playfair-display);
+}
+
+.hero-content__customer p{
+    color: var(--secondary-color);
+    font-family: var(--plus-jakarta-sans);
+    opacity: 0.5;
+}
+
+.hero-content__review{
+    flex: 1;
+    padding-left: 40px;
+    border-left: 1px solid rgba(2, 2, 2, 0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.hero-content__review img{
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+}
+
+.hero-content__review p{
+    font-family: var(--plus-jakarta-sans);
+    opacity: 0.8;
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+
+
+
