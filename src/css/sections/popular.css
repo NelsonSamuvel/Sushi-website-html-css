@@ -1,6 +1,7 @@
 .popular-foods{
     background-color: var(--primary-color);
     padding: 4rem;
+    overflow: hidden;
 
 }
 

@@ -6,9 +6,9 @@
 @import url("sections/hero.css");
 @import url("sections/about.css");
 @import url("sections/popular.css");
-/* @import url("sections/trending.css");
+@import url("sections/trending.css");
 @import url("sections/subscribe.css");
-@import url("sections/footer.css"); */
+@import url("sections/footer.css");
 
 /* CSS variables for reusablity across all files (including above imported) */
 :root {
@@ -105,6 +105,10 @@ a {
   scrollbar-width: none; /* Firefox */
 }
 
+.scroll-x-hidden::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
 /* START: about us media queries */
 @media screen and (max-width: 1024px) {
   .about-us {
@@ -142,6 +146,8 @@ a {
 }
 
 @media screen and (max-width: 550px) {
+
+
   .about-us__image-sushi2 img,
   .about-us__image-sushi3 img {
     width: 50%;
@@ -166,7 +172,7 @@ a {
 
 
 /* START: header media querie */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1060px) {
   .header__nav {
     background: var(--primary-color);
   }
