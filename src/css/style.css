@@ -59,6 +59,10 @@ a {
   align-items: center;
 }
 
+.hidden{
+  display: none;
+}
+
 .sushi__subtitle {
   font-size: 18px;
   font-weight: 400;
@@ -186,10 +190,15 @@ a {
   }
 }
 
+
+
 @media screen and (max-width: 550px) {
   .header__logo {
     padding-left: 0;
   }
+
+  
+
 }
 /* END: header media queries */
 
@@ -211,6 +220,7 @@ a {
     font-size: 70px;
     line-height: 90px;
   }
+
 }
 
 @media screen and (max-width: 550px) {

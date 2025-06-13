@@ -56,3 +56,18 @@ const cards = [
         price: "$21.00"
     }
 ];
+
+const menuIcon = document.querySelector("#menu-icon");
+const menuItems = document.querySelector(".header__menu-mobile-items");
+const xIcon = document.querySelector(".x-icon");
+
+
+
+
+const toggleSidebar = (e)=>{
+    menuItems.classList.toggle("slide-in");
+}
+
+menuIcon.addEventListener("click",toggleSidebar)
+xIcon.addEventListener("click",toggleSidebar)
+
