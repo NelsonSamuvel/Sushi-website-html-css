@@ -197,7 +197,7 @@ a {
     padding-left: 0;
   }
 
-  
+
 
 }
 /* END: header media queries */
@@ -256,6 +256,8 @@ a {
   .popular-foods {
     padding: 64px 32px;
   }
+
+
 
   .popular-foods__card,
   .popular-foods__card.active-card {
